@@ -20,3 +20,7 @@ Note, however, there is some missing data in some of the rows. The first few lin
 ### Errors
 
 There are three deliberate errors, marked E1, E2 and E3. Finding other (non-deliberate and unknown to me)  errors will get a bonus -- clearly add below this line in your copy of the README what the errors are and how you fixed them.
+
+Moved main code into a separate method to facilitate importing for testing
+Changed check_monotonic to include parameter n as n no longer exists in global context
+Line 28: Error program would check for monotonicality on coloum T8 and TALL, this has been corrected by changing range from 9 to 1,8
